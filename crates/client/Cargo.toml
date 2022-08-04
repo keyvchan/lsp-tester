@@ -6,3 +6,8 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+lsp-types = { version = "0.93.0", features = ["proposed"] }
+lsp-client = { path = "../lsp-client"}
+flexi_logger = { version = "0.22.0", features = ["use_chrono_for_offset"] }
+log = "0.4.3"
+
